@@ -1,0 +1,2739 @@
+<configs>
+
+<append xpath="/recipes">
+
+	<!-- Harvest Tool Teaching Books -->
+	
+	<recipe name="harvestingToolsSkillMagazineLv5" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="harvestingToolsSkillMagazineLv10" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv15" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv20" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv25" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv30" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv35" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv40" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv45" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv50" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv55" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="harvestingToolsSkillMagazineLv60" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv65" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="harvestingToolsSkillMagazineLv70" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv75" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="harvestingToolsSkillMagazineLv80" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv85" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="harvestingToolsSkillMagazineLv90" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv95" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="harvestingToolsSkillMagazineLv100" count="1" tags="learnable,craftingHarvestingTools">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Bow Crafting Teaching Books -->
+	
+	<recipe name="bowsSkillMagazineLv5" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="bowsSkillMagazineLv10" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv15" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv20" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv25" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv30" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv35" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv40" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv45" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv50" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv55" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="bowsSkillMagazineLv60" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv65" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="bowsSkillMagazineLv70" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv75" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="bowsSkillMagazineLv80" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv85" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="bowsSkillMagazineLv90" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv95" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="bowsSkillMagazineLv100" count="1" tags="learnable,craftingBows">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+	<!-- Handgun Crafting Teaching Books -->
+	
+	<recipe name="handgunsSkillMagazineLv5" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="handgunsSkillMagazineLv10" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv15" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv20" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv25" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv30" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv35" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv40" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv45" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv50" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv55" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="handgunsSkillMagazineLv60" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv65" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="handgunsSkillMagazineLv70" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv75" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="handgunsSkillMagazineLv80" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv85" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="handgunsSkillMagazineLv90" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv95" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="handgunsSkillMagazineLv100" count="1" tags="learnable,craftingHandguns">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+	<!-- Shotgun Crafting Teaching Books -->
+	
+	<recipe name="shotgunsSkillMagazineLv5" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="shotgunsSkillMagazineLv10" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv15" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv20" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv25" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv30" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv35" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv40" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv45" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv50" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv55" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="shotgunsSkillMagazineLv60" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv65" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="shotgunsSkillMagazineLv70" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv75" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="shotgunsSkillMagazineLv80" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv85" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="shotgunsSkillMagazineLv90" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv95" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="shotgunsSkillMagazineLv100" count="1" tags="learnable,craftingShotguns">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Rifle Crafting Teaching Books -->
+	
+	<recipe name="riflesSkillMagazineLv5" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="riflesSkillMagazineLv10" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv15" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv20" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv25" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv30" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv35" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv40" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv45" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv50" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv55" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="riflesSkillMagazineLv60" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv65" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="riflesSkillMagazineLv70" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv75" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="riflesSkillMagazineLv80" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv85" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="riflesSkillMagazineLv90" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv95" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="riflesSkillMagazineLv100" count="1" tags="learnable,craftingRifles">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Machine Gun Crafting Teaching Books -->
+	
+	<recipe name="machineGunsSkillMagazineLv5" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="machineGunsSkillMagazineLv10" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv15" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv20" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv25" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv30" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv35" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv40" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv45" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv50" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv55" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="machineGunsSkillMagazineLv60" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv65" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="machineGunsSkillMagazineLv70" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv75" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="machineGunsSkillMagazineLv80" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv85" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="machineGunsSkillMagazineLv90" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv95" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="machineGunsSkillMagazineLv100" count="1" tags="learnable,craftingMachineGuns">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Explosive Crafting Teaching Books -->
+	
+	<recipe name="explosivesSkillMagazineLv5" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="explosivesSkillMagazineLv10" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv15" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv20" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv25" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv30" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv35" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv40" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv45" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv50" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv55" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="explosivesSkillMagazineLv60" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv65" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="explosivesSkillMagazineLv70" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv75" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="explosivesSkillMagazineLv80" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv85" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="explosivesSkillMagazineLv90" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv95" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="explosivesSkillMagazineLv100" count="1" tags="learnable,craftingExplosives">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Robotics Crafting Teaching Books -->
+	
+	<recipe name="roboticsSkillMagazineLv5" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="roboticsSkillMagazineLv10" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv15" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv20" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv25" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv30" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv35" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv40" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv45" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv50" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv55" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="roboticsSkillMagazineLv60" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv65" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="roboticsSkillMagazineLv70" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv75" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="roboticsSkillMagazineLv80" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv85" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="roboticsSkillMagazineLv90" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv95" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="roboticsSkillMagazineLv100" count="1" tags="learnable,craftingRobotics">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Cooking Teaching Books -->
+	
+	<recipe name="foodSkillMagazineLv5" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="foodSkillMagazineLv10" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv15" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv20" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv25" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv30" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv35" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv40" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv45" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv50" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv55" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="foodSkillMagazineLv60" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv65" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="foodSkillMagazineLv70" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv75" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="foodSkillMagazineLv80" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv85" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="foodSkillMagazineLv90" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv95" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="foodSkillMagazineLv100" count="1" tags="learnable,craftingFood">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Electrical Teaching Books -->
+	
+	<recipe name="electricianSkillMagazineLv5" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="electricianSkillMagazineLv10" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv15" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv20" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv25" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv30" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv35" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv40" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv45" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv50" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv55" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="electricianSkillMagazineLv60" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv65" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="electricianSkillMagazineLv70" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv75" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="electricianSkillMagazineLv80" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv85" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="electricianSkillMagazineLv90" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv95" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="electricianSkillMagazineLv100" count="1" tags="learnable,craftingElectrician">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Vehicles Teaching Books -->
+	
+	<recipe name="vehiclesSkillMagazineLv5" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="vehiclesSkillMagazineLv10" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv15" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv20" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv25" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv30" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv35" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv40" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv45" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv50" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv55" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="vehiclesSkillMagazineLv60" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv65" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="vehiclesSkillMagazineLv70" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv75" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<recipe name="vehiclesSkillMagazineLv80" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="80"/>
+		<ingredient name="resourcePaper" count="80"/>
+		<ingredient name="resourceYuccaFibers" count="48"/>
+		<ingredient name="resourceLeather" count="32"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv85" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="85"/>
+		<ingredient name="resourcePaper" count="85"/>
+		<ingredient name="resourceYuccaFibers" count="51"/>
+		<ingredient name="resourceLeather" count="34"/>
+	</recipe>
+	
+		<recipe name="vehiclesSkillMagazineLv90" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="90"/>
+		<ingredient name="resourcePaper" count="90"/>
+		<ingredient name="resourceYuccaFibers" count="54"/>
+		<ingredient name="resourceLeather" count="36"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv95" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="95"/>
+		<ingredient name="resourcePaper" count="95"/>
+		<ingredient name="resourceYuccaFibers" count="57"/>
+		<ingredient name="resourceLeather" count="38"/>
+	</recipe>
+	
+	<recipe name="vehiclesSkillMagazineLv100" count="1" tags="learnable,craftingVehicles">
+		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourcePaper" count="100"/>
+		<ingredient name="resourceYuccaFibers" count="60"/>
+		<ingredient name="resourceLeather" count="40"/>
+	</recipe>
+	
+		<!-- Salvage Tool Teaching Books -->
+	
+	<recipe name="salvageToolsSkillMagazineLv5" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="salvageToolsSkillMagazineLv10" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv15" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv20" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv25" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv30" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv35" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv40" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv45" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv50" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv55" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="salvageToolsSkillMagazineLv60" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv65" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="salvageToolsSkillMagazineLv70" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="salvageToolsSkillMagazineLv75" count="1" tags="learnable,craftingSalvageTools">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<!-- Knuckle Crafting Teaching Books -->
+	
+	<recipe name="knucklesSkillMagazineLv5" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="knucklesSkillMagazineLv10" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv15" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv20" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv25" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv30" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv35" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv40" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv45" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv50" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv55" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="knucklesSkillMagazineLv60" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv65" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="knucklesSkillMagazineLv70" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="knucklesSkillMagazineLv75" count="1" tags="learnable,craftingKnuckles">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<!-- Blade Crafting Teaching Books -->
+	
+	<recipe name="bladesSkillMagazineLv5" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="bladesSkillMagazineLv10" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv15" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv20" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv25" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv30" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv35" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv40" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv45" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv50" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv55" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="bladesSkillMagazineLv60" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv65" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="bladesSkillMagazineLv70" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="bladesSkillMagazineLv75" count="1" tags="learnable,craftingBlades">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<!-- Club Crafting Teaching Books -->
+	
+	<recipe name="clubsSkillMagazineLv5" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="clubsSkillMagazineLv10" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv15" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv20" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv25" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv30" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv35" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv40" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv45" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv50" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv55" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="clubsSkillMagazineLv60" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv65" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="clubsSkillMagazineLv70" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="clubsSkillMagazineLv75" count="1" tags="learnable,craftingClubs">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+			<!-- Sledgehammer Crafting Teaching Books -->
+	
+	<recipe name="sledgehammersSkillMagazineLv5" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="sledgehammersSkillMagazineLv10" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv15" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv20" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv25" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv30" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv35" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv40" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv45" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv50" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv55" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="sledgehammersSkillMagazineLv60" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv65" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="sledgehammersSkillMagazineLv70" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="sledgehammersSkillMagazineLv75" count="1" tags="learnable,craftingSledgehammers">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+			<!-- Spear Crafting Teaching Books -->
+	
+	<recipe name="spearsSkillMagazineLv5" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="spearsSkillMagazineLv10" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv15" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv20" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv25" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv30" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv35" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv40" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv45" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv50" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv55" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="spearsSkillMagazineLv60" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv65" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="spearsSkillMagazineLv70" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="spearsSkillMagazineLv75" count="1" tags="learnable,craftingSpears">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<!-- Armor Crafting Teaching Books -->
+	
+	<recipe name="armorSkillMagazineLv5" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="armorSkillMagazineLv10" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv15" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv20" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv25" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv30" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv35" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv40" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv45" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv50" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv55" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="armorSkillMagazineLv60" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv65" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="armorSkillMagazineLv70" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="armorSkillMagazineLv75" count="1" tags="learnable,craftingArmor">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+			<!-- Medical Supplies Crafting Teaching Books -->
+	
+	<recipe name="medicalSkillMagazineLv5" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="medicalSkillMagazineLv10" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv15" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv20" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv25" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv30" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv35" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv40" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv45" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv50" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv55" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="medicalSkillMagazineLv60" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv65" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="medicalSkillMagazineLv70" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="medicalSkillMagazineLv75" count="1" tags="learnable,craftingMedical">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<!-- Trap Crafting Teaching Books -->
+	
+	<recipe name="trapsSkillMagazineLv5" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="trapsSkillMagazineLv10" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv15" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv20" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv25" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv30" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv35" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv40" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv45" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv50" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv55" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="trapsSkillMagazineLv60" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv65" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="trapsSkillMagazineLv70" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="trapsSkillMagazineLv75" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+	
+		<!-- Workstation Crafting Teaching Books -->
+	
+	<recipe name="workstationSkillMagazineLv5" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="workstationSkillMagazineLv10" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv15" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv20" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv25" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv30" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv35" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv40" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv45" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv50" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv55" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="55"/>
+		<ingredient name="resourcePaper" count="55"/>
+		<ingredient name="resourceYuccaFibers" count="33"/>
+		<ingredient name="resourceLeather" count="22"/>
+	</recipe>
+
+	<recipe name="workstationSkillMagazineLv60" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="60"/>
+		<ingredient name="resourcePaper" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="36"/>
+		<ingredient name="resourceLeather" count="24"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv65" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="65"/>
+		<ingredient name="resourcePaper" count="65"/>
+		<ingredient name="resourceYuccaFibers" count="39"/>
+		<ingredient name="resourceLeather" count="26"/>
+	</recipe>
+	
+		<recipe name="workstationSkillMagazineLv70" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="70"/>
+		<ingredient name="resourcePaper" count="70"/>
+		<ingredient name="resourceYuccaFibers" count="42"/>
+		<ingredient name="resourceLeather" count="28"/>
+	</recipe>
+	
+	<recipe name="workstationSkillMagazineLv75" count="1" tags="learnable,craftingWorkstations">
+		<ingredient name="resourceCoal" count="75"/>
+		<ingredient name="resourcePaper" count="75"/>
+		<ingredient name="resourceYuccaFibers" count="45"/>
+		<ingredient name="resourceLeather" count="30"/>
+	</recipe>
+
+		<!-- Repair Tool Teaching Books -->
+	
+	<recipe name="repairToolsSkillMagazineLv5" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="repairToolsSkillMagazineLv10" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv15" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv20" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv25" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="25"/>
+		<ingredient name="resourcePaper" count="25"/>
+		<ingredient name="resourceYuccaFibers" count="15"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv30" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="30"/>
+		<ingredient name="resourcePaper" count="30"/>
+		<ingredient name="resourceYuccaFibers" count="18"/>
+		<ingredient name="resourceLeather" count="12"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv35" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="35"/>
+		<ingredient name="resourcePaper" count="35"/>
+		<ingredient name="resourceYuccaFibers" count="21"/>
+		<ingredient name="resourceLeather" count="14"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv40" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="40"/>
+		<ingredient name="resourcePaper" count="40"/>
+		<ingredient name="resourceYuccaFibers" count="24"/>
+		<ingredient name="resourceLeather" count="16"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv45" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="45"/>
+		<ingredient name="resourcePaper" count="45"/>
+		<ingredient name="resourceYuccaFibers" count="27"/>
+		<ingredient name="resourceLeather" count="18"/>
+	</recipe>
+	
+	<recipe name="repairToolsSkillMagazineLv50" count="1" tags="learnable,craftingRepairTools">
+		<ingredient name="resourceCoal" count="50"/>
+		<ingredient name="resourcePaper" count="50"/>
+		<ingredient name="resourceYuccaFibers" count="30"/>
+		<ingredient name="resourceLeather" count="20"/>
+	</recipe>
+	
+		<!-- Seed Crafting Teaching Books -->
+	
+	<recipe name="seedSkillMagazineLv5" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+		<ingredient name="resourceYuccaFibers" count="3"/>
+		<ingredient name="resourceLeather" count="2"/>
+	</recipe>
+
+	<recipe name="seedSkillMagazineLv10" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="10"/>
+		<ingredient name="resourcePaper" count="10"/>
+		<ingredient name="resourceYuccaFibers" count="6"/>
+		<ingredient name="resourceLeather" count="4"/>
+	</recipe>
+	
+	<recipe name="seedSkillMagazineLv15" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="15"/>
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceYuccaFibers" count="9"/>
+		<ingredient name="resourceLeather" count="6"/>
+	</recipe>
+	
+	<recipe name="seedSkillMagazineLv20" count="1" tags="learnable,craftingTraps">
+		<ingredient name="resourceCoal" count="20"/>
+		<ingredient name="resourcePaper" count="20"/>
+		<ingredient name="resourceYuccaFibers" count="12"/>
+		<ingredient name="resourceLeather" count="8"/>
+	</recipe>
+</append>	
+</configs>

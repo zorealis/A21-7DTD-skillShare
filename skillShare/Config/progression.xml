@@ -1,0 +1,958 @@
+<configs>
+
+	<!-- Harvest Tool Teaching Magazines -->
+
+<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']/display_entry[@icon='meleeToolPickT3Auger']">
+	<display_entry icon="bookToolsDigest" name_key="harvestingToolsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="harvestingToolsSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="harvestingToolsSkillMagazineLv100" unlock_tier="20" />
+		</display_entry>
+</insertAfter>
+
+<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']/effect_group/passive_effect[@tags='meleeToolPickT3Auger,meleeToolAxeT3Chainsaw']">
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="harvestingToolsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="harvestingToolsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="harvestingToolsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="harvestingToolsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="harvestingToolsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="harvestingToolsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="harvestingToolsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="harvestingToolsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="harvestingToolsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="harvestingToolsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="harvestingToolsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="harvestingToolsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="harvestingToolsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="harvestingToolsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="harvestingToolsSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="harvestingToolsSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="harvestingToolsSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="harvestingToolsSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="harvestingToolsSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="harvestingToolsSkillMagazineLv100"/>
+</insertAfter>
+
+	<!-- Bow Crafting Teaching Magazines -->
+
+<!-- <insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']/display_entry[@icon='gunBowT3CompoundCrossbow']"> -->
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']">
+	<display_entry icon="bookBowHunters" name_key="bowsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="bowsSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="bowsSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="bowsSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="bowsSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="bowsSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="bowsSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="bowsSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="bowsSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="bowsSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="bowsSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="bowsSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="bowsSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="bowsSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="bowsSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="bowsSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="bowsSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="bowsSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="bowsSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="bowsSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="bowsSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="bowsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="bowsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="bowsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="bowsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="bowsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="bowsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="bowsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="bowsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="bowsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="bowsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="bowsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="bowsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="bowsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="bowsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="bowsSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="bowsSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="bowsSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="bowsSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="bowsSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="bowsSkillMagazineLv100"/>
+</append>
+
+	<!-- Handgun Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">	
+	<display_entry icon="bookHandgunMagazine" name_key="handgunsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="handgunsSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="handgunsSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="handgunsSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="handgunsSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="handgunsSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="handgunsSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="handgunsSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="handgunsSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="handgunsSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="handgunsSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="handgunsSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="handgunsSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="handgunsSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="handgunsSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="handgunsSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="handgunsSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="handgunsSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="handgunsSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="handgunsSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="handgunsSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="handgunsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="handgunsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="handgunsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="handgunsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="handgunsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="handgunsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="handgunsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="handgunsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="handgunsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="handgunsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="handgunsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="handgunsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="handgunsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="handgunsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="handgunsSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="handgunsSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="handgunsSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="handgunsSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="handgunsSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="handgunsSkillMagazineLv100"/>
+</append>
+
+	<!-- Shotgun Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']">	
+	<display_entry icon="bookShotgunWeekly" name_key="shotgunsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="shotgunsSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="shotgunsSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="shotgunsSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="shotgunsSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="shotgunsSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="shotgunsSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="shotgunsSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="shotgunsSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="shotgunsSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="shotgunsSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="shotgunsSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="shotgunsSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="shotgunsSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="shotgunsSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="shotgunsSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="shotgunsSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="shotgunsSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="shotgunsSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="shotgunsSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="shotgunsSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="shotgunsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="shotgunsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="shotgunsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="shotgunsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="shotgunsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="shotgunsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="shotgunsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="shotgunsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="shotgunsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="shotgunsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="shotgunsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="shotgunsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="shotgunsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="shotgunsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="shotgunsSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="shotgunsSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="shotgunsSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="shotgunsSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="shotgunsSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="shotgunsSkillMagazineLv100"/>
+</append>
+
+	<!-- Rifle Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']">	
+	<display_entry icon="bookRifleWorld" name_key="riflesSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="riflesSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="riflesSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="riflesSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="riflesSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="riflesSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="riflesSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="riflesSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="riflesSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="riflesSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="riflesSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="riflesSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="riflesSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="riflesSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="riflesSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="riflesSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="riflesSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="riflesSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="riflesSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="riflesSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="riflesSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="riflesSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="riflesSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="riflesSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="riflesSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="riflesSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="riflesSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="riflesSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="riflesSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="riflesSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="riflesSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="riflesSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="riflesSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="riflesSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="riflesSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="riflesSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="riflesSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="riflesSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="riflesSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="riflesSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="riflesSkillMagazineLv100"/>
+</append>
+
+	<!-- Machine Gun Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']">	
+	<display_entry icon="bookTacticalWarfare" name_key="machineGunsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="machineGunsSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="machineGunsSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="machineGunsSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="machineGunsSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="machineGunsSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="machineGunsSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="machineGunsSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="machineGunsSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="machineGunsSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="machineGunsSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="machineGunsSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="machineGunsSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="machineGunsSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="machineGunsSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="machineGunsSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="machineGunsSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="machineGunsSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="machineGunsSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="machineGunsSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="machineGunsSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="machineGunsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="machineGunsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="machineGunsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="machineGunsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="machineGunsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="machineGunsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="machineGunsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="machineGunsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="machineGunsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="machineGunsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="machineGunsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="machineGunsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="machineGunsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="machineGunsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="machineGunsSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="machineGunsSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="machineGunsSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="machineGunsSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="machineGunsSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="machineGunsSkillMagazineLv100"/>
+</append>
+
+	<!-- Explosives Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']">	
+	<display_entry icon="bookExplosiveMagazine" name_key="explosivesSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+		<unlock_entry item="explosivesSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="explosivesSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="explosivesSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="explosivesSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="explosivesSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="explosivesSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="explosivesSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="explosivesSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="explosivesSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="explosivesSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="explosivesSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="explosivesSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="explosivesSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="explosivesSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="explosivesSkillMagazineLv75" unlock_tier="15" />
+		<unlock_entry item="explosivesSkillMagazineLv80" unlock_tier="16" />
+		<unlock_entry item="explosivesSkillMagazineLv85" unlock_tier="17" />
+		<unlock_entry item="explosivesSkillMagazineLv90" unlock_tier="18" />
+		<unlock_entry item="explosivesSkillMagazineLv95" unlock_tier="19" />
+		<unlock_entry item="explosivesSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="explosivesSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="explosivesSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="explosivesSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="explosivesSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="explosivesSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="explosivesSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="explosivesSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="explosivesSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="explosivesSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="explosivesSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="explosivesSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="explosivesSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="explosivesSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="explosivesSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="explosivesSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="explosivesSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="explosivesSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="explosivesSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="explosivesSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="explosivesSkillMagazineLv100"/>
+</append>
+
+	<!-- Robotics Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']">	
+	<display_entry icon="bookTechPlanet" name_key="roboticsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="roboticsSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="roboticsSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="roboticsSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="roboticsSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="roboticsSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="roboticsSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="roboticsSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="roboticsSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="roboticsSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="roboticsSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="roboticsSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="roboticsSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="roboticsSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="roboticsSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="roboticsSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="roboticsSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="roboticsSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="roboticsSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="roboticsSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="roboticsSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="roboticsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="roboticsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="roboticsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="roboticsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="roboticsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="roboticsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="roboticsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="roboticsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="roboticsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="roboticsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="roboticsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="roboticsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="roboticsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="roboticsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="roboticsSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="roboticsSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="roboticsSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="roboticsSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="roboticsSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="roboticsSkillMagazineLv100"/>
+</append>
+
+	<!-- Cooking Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']">	
+	<display_entry icon="bookHomeCookingWeekly" name_key="foodSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="foodSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="foodSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="foodSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="foodSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="foodSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="foodSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="foodSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="foodSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="foodSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="foodSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="foodSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="foodSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="foodSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="foodSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="foodSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="foodSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="foodSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="foodSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="foodSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="foodSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="foodSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="foodSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="foodSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="foodSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="foodSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="foodSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="foodSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="foodSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="foodSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="foodSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="foodSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="foodSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="foodSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="foodSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="foodSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="foodSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="foodSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="foodSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="foodSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="foodSkillMagazineLv100"/>
+</append>
+
+	<!-- Electrical Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']">	
+	<display_entry icon="bookWiring101" name_key="electricianSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+			<unlock_entry item="electricianSkillMagazineLv5" unlock_tier="1" />
+			<unlock_entry item="electricianSkillMagazineLv10" unlock_tier="2" />
+			<unlock_entry item="electricianSkillMagazineLv15" unlock_tier="3" />
+			<unlock_entry item="electricianSkillMagazineLv20" unlock_tier="4" />
+			<unlock_entry item="electricianSkillMagazineLv25" unlock_tier="5" />
+			<unlock_entry item="electricianSkillMagazineLv30" unlock_tier="6" />
+			<unlock_entry item="electricianSkillMagazineLv35" unlock_tier="7" />
+			<unlock_entry item="electricianSkillMagazineLv40" unlock_tier="8" />
+			<unlock_entry item="electricianSkillMagazineLv45" unlock_tier="9" />
+			<unlock_entry item="electricianSkillMagazineLv50" unlock_tier="10" />
+			<unlock_entry item="electricianSkillMagazineLv55" unlock_tier="11" />
+			<unlock_entry item="electricianSkillMagazineLv60" unlock_tier="12" />
+			<unlock_entry item="electricianSkillMagazineLv65" unlock_tier="13" />
+			<unlock_entry item="electricianSkillMagazineLv70" unlock_tier="14" />
+			<unlock_entry item="electricianSkillMagazineLv75" unlock_tier="15" />
+			<unlock_entry item="electricianSkillMagazineLv80" unlock_tier="16" />
+			<unlock_entry item="electricianSkillMagazineLv85" unlock_tier="17" />
+			<unlock_entry item="electricianSkillMagazineLv90" unlock_tier="18" />
+			<unlock_entry item="electricianSkillMagazineLv95" unlock_tier="19" />
+			<unlock_entry item="electricianSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="electricianSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="electricianSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="electricianSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="electricianSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="electricianSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="electricianSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="electricianSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="electricianSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="electricianSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="electricianSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="electricianSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="electricianSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="electricianSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="electricianSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="electricianSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="electricianSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="electricianSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="electricianSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="electricianSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="electricianSkillMagazineLv100"/>
+</append>
+
+	<!-- Vehicle Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']">	
+	<display_entry icon="bookVehicleAdventures" name_key="vehiclesSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100" >
+		<unlock_entry item="vehiclesSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="vehiclesSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="vehiclesSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="vehiclesSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="vehiclesSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="vehiclesSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="vehiclesSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="vehiclesSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="vehiclesSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="vehiclesSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="vehiclesSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="vehiclesSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="vehiclesSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="vehiclesSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="vehiclesSkillMagazineLv75" unlock_tier="15" />
+		<unlock_entry item="vehiclesSkillMagazineLv80" unlock_tier="16" />
+		<unlock_entry item="vehiclesSkillMagazineLv85" unlock_tier="17" />
+		<unlock_entry item="vehiclesSkillMagazineLv90" unlock_tier="18" />
+		<unlock_entry item="vehiclesSkillMagazineLv95" unlock_tier="19" />
+		<unlock_entry item="vehiclesSkillMagazineLv100" unlock_tier="20" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="vehiclesSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="vehiclesSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="vehiclesSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="vehiclesSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="vehiclesSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="vehiclesSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="vehiclesSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="vehiclesSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,100" value="1" tags="vehiclesSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="vehiclesSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,100" value="1" tags="vehiclesSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="vehiclesSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,100" value="1" tags="vehiclesSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="vehiclesSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="vehiclesSkillMagazineLv75"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="vehiclesSkillMagazineLv80"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="85,100" value="1" tags="vehiclesSkillMagazineLv85"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="vehiclesSkillMagazineLv90"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="95,100" value="1" tags="vehiclesSkillMagazineLv95"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="vehiclesSkillMagazineLv100"/>
+</append>
+
+	<!-- Salvage Tools Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']">	
+	<display_entry icon="bookScrapping4Fun" name_key="salvageToolsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="salvageToolsSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="salvageToolsSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="salvageToolsSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="salvageToolsSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="salvageToolsSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="salvageToolsSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="salvageToolsSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="salvageToolsSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="salvageToolsSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="salvageToolsSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="salvageToolsSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="salvageToolsSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="salvageToolsSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="salvageToolsSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="salvageToolsSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="salvageToolsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="salvageToolsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="salvageToolsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="salvageToolsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="salvageToolsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="salvageToolsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="salvageToolsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="salvageToolsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="salvageToolsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="salvageToolsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="salvageToolsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="salvageToolsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="salvageToolsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="salvageToolsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="salvageToolsSkillMagazineLv75"/>
+</append>
+
+	<!-- Knuckle Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingKnuckles']">	
+	<display_entry icon="bookFuriousFists" name_key="knucklesSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="knucklesSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="knucklesSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="knucklesSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="knucklesSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="knucklesSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="knucklesSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="knucklesSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="knucklesSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="knucklesSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="knucklesSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="knucklesSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="knucklesSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="knucklesSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="knucklesSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="knucklesSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="knucklesSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="knucklesSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="knucklesSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="knucklesSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="knucklesSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="knucklesSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="knucklesSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="knucklesSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="knucklesSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="knucklesSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="knucklesSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="knucklesSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="knucklesSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="knucklesSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="knucklesSkillMagazineLv75"/>
+</append>
+
+	<!-- Blade Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']">	
+	<display_entry icon="bookKnifeGuy" name_key="bladesSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="bladesSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="bladesSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="bladesSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="bladesSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="bladesSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="bladesSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="bladesSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="bladesSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="bladesSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="bladesSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="bladesSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="bladesSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="bladesSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="bladesSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="bladesSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="bladesSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="bladesSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="bladesSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="bladesSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="bladesSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="bladesSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="bladesSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="bladesSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="bladesSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="bladesSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="bladesSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="bladesSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="bladesSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="bladesSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="bladesSkillMagazineLv75"/>
+</append>
+
+	<!-- Club Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']">	
+	<display_entry icon="bookBigHitters" name_key="clubsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="clubsSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="clubsSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="clubsSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="clubsSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="clubsSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="clubsSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="clubsSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="clubsSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="clubsSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="clubsSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="clubsSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="clubsSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="clubsSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="clubsSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="clubsSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="clubsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="clubsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="clubsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="clubsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="clubsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="clubsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="clubsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="clubsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="clubsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="clubsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="clubsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="clubsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="clubsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="clubsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="clubsSkillMagazineLv75"/>
+</append>
+
+	<!-- Sledgehammer Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSledgehammers']">	
+	<display_entry icon="bookGetHammered" name_key="sledgehammersSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="sledgehammersSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="sledgehammersSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="sledgehammersSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="sledgehammersSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="sledgehammersSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="sledgehammersSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="sledgehammersSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="sledgehammersSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="sledgehammersSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="sledgehammersSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="sledgehammersSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="sledgehammersSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="sledgehammersSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="sledgehammersSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="sledgehammersSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="sledgehammersSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="sledgehammersSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="sledgehammersSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="sledgehammersSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="sledgehammersSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="sledgehammersSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="sledgehammersSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="sledgehammersSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="sledgehammersSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="sledgehammersSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="sledgehammersSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="sledgehammersSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="sledgehammersSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="sledgehammersSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="sledgehammersSkillMagazineLv75"/>
+</append>
+
+	<!-- Spear Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']">	
+	<display_entry icon="bookSharpSticks" name_key="spearsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="spearsSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="spearsSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="spearsSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="spearsSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="spearsSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="spearsSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="spearsSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="spearsSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="spearsSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="spearsSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="spearsSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="spearsSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="spearsSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="spearsSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="spearsSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="spearsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="spearsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="spearsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="spearsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="spearsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="spearsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="spearsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="spearsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="spearsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="spearsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="spearsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="spearsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="spearsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="spearsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="spearsSkillMagazineLv75"/>
+</append>
+
+	<!-- Armor Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']">	
+	<display_entry icon="bookArmoredUp" name_key="armorSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="armorSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="armorSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="armorSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="armorSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="armorSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="armorSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="armorSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="armorSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="armorSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="armorSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="armorSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="armorSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="armorSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="armorSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="armorSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="armorSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="armorSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="armorSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="armorSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="armorSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="armorSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="armorSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="armorSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="armorSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="armorSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="armorSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="armorSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="armorSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="armorSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="armorSkillMagazineLv75"/>
+</append>
+
+	<!-- Medical Supplies Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']">	
+	<display_entry icon="bookMedicalJournal" name_key="medicalSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="medicalSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="medicalSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="medicalSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="medicalSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="medicalSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="medicalSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="medicalSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="medicalSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="medicalSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="medicalSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="medicalSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="medicalSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="medicalSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="medicalSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="medicalSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="medicalSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="medicalSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="medicalSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="medicalSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="medicalSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="medicalSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="medicalSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="medicalSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="medicalSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="medicalSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="medicalSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="medicalSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="medicalSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="medicalSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="medicalSkillMagazineLv75"/>
+</append>
+
+	<!-- Trap Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']">	
+	<display_entry icon="bookElectricalTraps" name_key="trapsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="trapsSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="trapsSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="trapsSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="trapsSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="trapsSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="trapsSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="trapsSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="trapsSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="trapsSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="trapsSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="trapsSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="trapsSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="trapsSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="trapsSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="trapsSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="trapsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="trapsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="trapsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="trapsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="trapsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="trapsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="trapsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="trapsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="trapsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="trapsSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="trapsSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="trapsSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="trapsSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="trapsSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="trapsSkillMagazineLv75"/>
+</append>
+
+	<!-- Workstation Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">	
+	<display_entry icon="bookForgeAhead" name_key="workstationSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75" >
+		<unlock_entry item="workstationSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="workstationSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="workstationSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="workstationSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="workstationSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="workstationSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="workstationSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="workstationSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="workstationSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="workstationSkillMagazineLv50" unlock_tier="10" />
+		<unlock_entry item="workstationSkillMagazineLv55" unlock_tier="11" />
+		<unlock_entry item="workstationSkillMagazineLv60" unlock_tier="12" />
+		<unlock_entry item="workstationSkillMagazineLv65" unlock_tier="13" />
+		<unlock_entry item="workstationSkillMagazineLv70" unlock_tier="14" />
+		<unlock_entry item="workstationSkillMagazineLv75" unlock_tier="15" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="workstationSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="workstationSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="workstationSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="workstationSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,75" value="1" tags="workstationSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,75" value="1" tags="workstationSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,75" value="1" tags="workstationSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,75" value="1" tags="workstationSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,75" value="1" tags="workstationSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,75" value="1" tags="workstationSkillMagazineLv50"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="55,75" value="1" tags="workstationSkillMagazineLv55"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,75" value="1" tags="workstationSkillMagazineLv60"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="65,75" value="1" tags="workstationSkillMagazineLv65"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,75" value="1" tags="workstationSkillMagazineLv70"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,75" value="1" tags="workstationSkillMagazineLv75"/>
+</append>
+
+	<!-- Salvage Tools Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']">	
+	<display_entry icon="bookHandyLand" name_key="repairToolsSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20,25,30,35,40,45,50" >
+		<unlock_entry item="repairToolsSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="repairToolsSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="repairToolsSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="repairToolsSkillMagazineLv20" unlock_tier="4" />
+		<unlock_entry item="repairToolsSkillMagazineLv25" unlock_tier="5" />
+		<unlock_entry item="repairToolsSkillMagazineLv30" unlock_tier="6" />
+		<unlock_entry item="repairToolsSkillMagazineLv35" unlock_tier="7" />
+		<unlock_entry item="repairToolsSkillMagazineLv40" unlock_tier="8" />
+		<unlock_entry item="repairToolsSkillMagazineLv45" unlock_tier="9" />
+		<unlock_entry item="repairToolsSkillMagazineLv50" unlock_tier="10" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,50" value="1" tags="repairToolsSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,50" value="1" tags="repairToolsSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,50" value="1" tags="repairToolsSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,50" value="1" tags="repairToolsSkillMagazineLv20"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,50" value="1" tags="repairToolsSkillMagazineLv25"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,50" value="1" tags="repairToolsSkillMagazineLv30"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,50" value="1" tags="repairToolsSkillMagazineLv35"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,50" value="1" tags="repairToolsSkillMagazineLv40"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="45,50" value="1" tags="repairToolsSkillMagazineLv45"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,50" value="1" tags="repairToolsSkillMagazineLv50"/>
+</append>
+
+	<!-- Seed Crafting Teaching Magazines -->
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSeeds']">	
+	<display_entry icon="bookSouthernFarming" name_key="seedSkillMagazineLvl" has_quality="false" unlock_level="5,10,15,20">
+		<unlock_entry item="seedSkillMagazineLv5" unlock_tier="1" />
+		<unlock_entry item="seedSkillMagazineLv10" unlock_tier="2" />
+		<unlock_entry item="seedSkillMagazineLv15" unlock_tier="3" />
+		<unlock_entry item="seedSkillMagazineLv20" unlock_tier="4" />
+	</display_entry>
+	
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,75" value="1" tags="seedSkillMagazineLv5"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,75" value="1" tags="seedSkillMagazineLv10"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,75" value="1" tags="seedSkillMagazineLv15"/>
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,75" value="1" tags="seedSkillMagazineLv20"/>
+</append>
+
+</configs>
